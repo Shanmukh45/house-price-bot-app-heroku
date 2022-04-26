@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    open-in-view: true
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/house_data
+    username: postgres
+    password:
+    driverClassName: org.postgresql.Driver
